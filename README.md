@@ -1,30 +1,60 @@
 # TalentIQ Landing Page
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern, responsive landing page built with Next.js and TailwindCSS showcasing talent acquisition and management solutions.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/shreyamahadevs-projects/v0-talent-iq-landing-page)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/jh8NSWI8UCS)
+## 🚀 Tech Stack
 
-## Overview
+- **Framework:** Next.js 15
+- **Styling:** TailwindCSS + Tailwind Merge
+- **UI Components:**
+  - Radix UI for accessible components
+  - Lucide React for icons
+  - Embla Carousel for sliders
+  - Sonner for toast notifications
+  - React Hook Form for form handling
+  - Zod for form validation
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## ✨ Features
 
-## Deployment
+- Responsive design that works across all devices
+- Dark/Light theme support using next-themes
+- Accessible UI components using Radix UI primitives
+- Modern animations with tailwindcss-animate
+- Type-safe development with TypeScript
+- Component-driven architecture
 
-Your project is live at:
+## 🛠️ Development
 
-**[https://vercel.com/shreyamahadevs-projects/v0-talent-iq-landing-page](https://vercel.com/shreyamahadevs-projects/v0-talent-iq-landing-page)**
+```bash
+# Install dependencies
+pnpm install
 
-## Build your app
+# Start development server
+pnpm dev
 
-Continue building your app on:
+# Build for production
+pnpm build
 
-**[https://v0.dev/chat/projects/jh8NSWI8UCS](https://v0.dev/chat/projects/jh8NSWI8UCS)**
+# Start production server
+pnpm start
+```
 
-## How It Works
+## 🌐 Deployment
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+This project is deployed on Vercel. You can view the live site at:
+[https://v0-talent-iq-landing-page.vercel.app](https://v0-talent-iq-landing-page.vercel.app)
+
+## 📝 Environment Setup
+
+Requirements:
+- Node.js 18+ 
+- pnpm package manager
+
+## 🔑 Key Dependencies
+
+- **@radix-ui/** - Collection of accessible UI primitives
+- **@hookform/resolvers** - Form validation resolvers
+- **class-variance-authority** - Managing component variants
+- **lucide-react** - Icons library
+- **next-themes** - Theme management
+- **tailwind-merge** - Utility for merging Tailwind classes

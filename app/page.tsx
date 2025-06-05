@@ -43,7 +43,7 @@ export default function LandingPage() {
       </header>
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-b from-background to-muted">
+        <section className="w-full py-8 md:py-16 lg:py-20 xl:py-24 bg-gradient-to-b from-background to-muted">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
@@ -104,7 +104,11 @@ export default function LandingPage() {
                   <div className="mb-2 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                     <FileText className="h-6 w-6 text-primary" />
                   </div>
-                  <CardTitle>Resume Analyzer</CardTitle>
+                  <CardTitle>
+                    <Link href="/features/resume-analyzer" className="hover:text-primary">
+                      Resume Analyzer
+                    </Link>
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
@@ -117,7 +121,11 @@ export default function LandingPage() {
                   <div className="mb-2 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                     <MessageSquare className="h-6 w-6 text-primary" />
                   </div>
-                  <CardTitle>Mock Interview</CardTitle>
+                  <CardTitle>
+                    <Link href="/features/mock-interview" className="hover:text-primary">
+                      Mock Interview
+                    </Link>
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
@@ -130,7 +138,11 @@ export default function LandingPage() {
                   <div className="mb-2 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                     <Code className="h-6 w-6 text-primary" />
                   </div>
-                  <CardTitle>Skill Gap Checker</CardTitle>
+                  <CardTitle>
+                    <Link href="/features/skill-gap" className="hover:text-primary">
+                      Skill Gap Checker
+                    </Link>
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
@@ -143,7 +155,11 @@ export default function LandingPage() {
                   <div className="mb-2 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
                     <MapPin className="h-6 w-6 text-primary" />
                   </div>
-                  <CardTitle>Career Roadmap</CardTitle>
+                  <CardTitle>
+                    <Link href="/features/career-roadmap" className="hover:text-primary">
+                      Career Roadmap
+                    </Link>
+                  </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground">
